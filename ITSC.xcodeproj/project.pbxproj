@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0431EAF2272A472600CCD2F6 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAF1272A472600CCD2F6 /* NewsTableViewController.swift */; };
+		0431EAF4272A475000CCD2F6 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAF3272A475000CCD2F6 /* NewsTableViewCell.swift */; };
+		0431EAF6272A482A00CCD2F6 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAF5272A482A00CCD2F6 /* ContentViewController.swift */; };
+		0431EAF8272A48AA00CCD2F6 /* NoticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAF7272A48AA00CCD2F6 /* NoticeTableViewController.swift */; };
+		0431EAFA272A48C400CCD2F6 /* NoticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAF9272A48C400CCD2F6 /* NoticeTableViewCell.swift */; };
+		0431EAFC272A495200CCD2F6 /* NetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAFB272A495200CCD2F6 /* NetworkTableViewCell.swift */; };
+		0431EAFE272A497D00CCD2F6 /* NetworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAFD272A497D00CCD2F6 /* NetworkTableViewController.swift */; };
+		0431EB00272A49F600CCD2F6 /* SafetyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EAFF272A49F600CCD2F6 /* SafetyTableViewController.swift */; };
+		0431EB02272A4A0700CCD2F6 /* SafetyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EB01272A4A0700CCD2F6 /* SafetyTableViewCell.swift */; };
+		0431EB04272A4B8F00CCD2F6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431EB03272A4B8F00CCD2F6 /* InfoViewController.swift */; };
+		0484AD4F272AF12C008D60F4 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0484AD4E272AF12C008D60F4 /* NewsItem.swift */; };
+		049AD4F7272C5B7A006C4592 /* MySwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 049AD4F6272C5B7A006C4592 /* MySwiftSoup */; };
 		34EBE00A271F08E2005CC9EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBE009271F08E2005CC9EB /* AppDelegate.swift */; };
 		34EBE00C271F08E2005CC9EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */; };
-		34EBE00E271F08E2005CC9EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EBE00D271F08E2005CC9EB /* ViewController.swift */; };
 		34EBE011271F08E2005CC9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE00F271F08E2005CC9EB /* Main.storyboard */; };
 		34EBE013271F08E3005CC9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE012271F08E3005CC9EB /* Assets.xcassets */; };
 		34EBE01E271F0910005CC9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0431EAF1272A472600CCD2F6 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		0431EAF3272A475000CCD2F6 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		0431EAF5272A482A00CCD2F6 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		0431EAF7272A48AA00CCD2F6 /* NoticeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeTableViewController.swift; sourceTree = "<group>"; };
+		0431EAF9272A48C400CCD2F6 /* NoticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeTableViewCell.swift; sourceTree = "<group>"; };
+		0431EAFB272A495200CCD2F6 /* NetworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTableViewCell.swift; sourceTree = "<group>"; };
+		0431EAFD272A497D00CCD2F6 /* NetworkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTableViewController.swift; sourceTree = "<group>"; };
+		0431EAFF272A49F600CCD2F6 /* SafetyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyTableViewController.swift; sourceTree = "<group>"; };
+		0431EB01272A4A0700CCD2F6 /* SafetyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyTableViewCell.swift; sourceTree = "<group>"; };
+		0431EB03272A4B8F00CCD2F6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0484AD4E272AF12C008D60F4 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		049AD4F4272C5B27006C4592 /* MySwiftSoup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MySwiftSoup; sourceTree = "<group>"; };
 		34EBE006271F08E2005CC9EB /* ITSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34EBE009271F08E2005CC9EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34EBE00D271F08E2005CC9EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34EBE010271F08E2005CC9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34EBE012271F08E3005CC9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EBE017271F08E3005CC9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +53,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049AD4F7272C5B7A006C4592 /* MySwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049AD4EB272C4F50006C4592 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				049AD4F4272C5B27006C4592 /* MySwiftSoup */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		049AD4F5272C5B7A006C4592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		34EBDFFD271F08E2005CC9EB = {
 			isa = PBXGroup;
 			children = (
+				049AD4EB272C4F50006C4592 /* Packages */,
 				34EBE008271F08E2005CC9EB /* ITSC */,
 				34EBE007271F08E2005CC9EB /* Products */,
+				049AD4F5272C5B7A006C4592 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +98,18 @@
 			children = (
 				34EBE009271F08E2005CC9EB /* AppDelegate.swift */,
 				34EBE00B271F08E2005CC9EB /* SceneDelegate.swift */,
-				34EBE00D271F08E2005CC9EB /* ViewController.swift */,
 				34EBE00F271F08E2005CC9EB /* Main.storyboard */,
+				0484AD4E272AF12C008D60F4 /* NewsItem.swift */,
+				0431EAF1272A472600CCD2F6 /* NewsTableViewController.swift */,
+				0431EAF3272A475000CCD2F6 /* NewsTableViewCell.swift */,
+				0431EAF7272A48AA00CCD2F6 /* NoticeTableViewController.swift */,
+				0431EAF9272A48C400CCD2F6 /* NoticeTableViewCell.swift */,
+				0431EAFD272A497D00CCD2F6 /* NetworkTableViewController.swift */,
+				0431EAFB272A495200CCD2F6 /* NetworkTableViewCell.swift */,
+				0431EAFF272A49F600CCD2F6 /* SafetyTableViewController.swift */,
+				0431EB01272A4A0700CCD2F6 /* SafetyTableViewCell.swift */,
+				0431EB03272A4B8F00CCD2F6 /* InfoViewController.swift */,
+				0431EAF5272A482A00CCD2F6 /* ContentViewController.swift */,
 				34EBE012271F08E3005CC9EB /* Assets.xcassets */,
 				34EBE017271F08E3005CC9EB /* Info.plist */,
 				34EBE01D271F0910005CC9EB /* LaunchScreen.storyboard */,
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = ITSC;
+			packageProductDependencies = (
+				049AD4F6272C5B7A006C4592 /* MySwiftSoup */,
+			);
 			productName = ITSC;
 			productReference = 34EBE006271F08E2005CC9EB /* ITSC.app */;
 			productType = "com.apple.product-type.application";
@@ -138,9 +191,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34EBE00E271F08E2005CC9EB /* ViewController.swift in Sources */,
+				0431EAF6272A482A00CCD2F6 /* ContentViewController.swift in Sources */,
+				0431EB02272A4A0700CCD2F6 /* SafetyTableViewCell.swift in Sources */,
+				0431EAF2272A472600CCD2F6 /* NewsTableViewController.swift in Sources */,
+				0484AD4F272AF12C008D60F4 /* NewsItem.swift in Sources */,
+				0431EAFC272A495200CCD2F6 /* NetworkTableViewCell.swift in Sources */,
+				0431EAFA272A48C400CCD2F6 /* NoticeTableViewCell.swift in Sources */,
+				0431EAFE272A497D00CCD2F6 /* NetworkTableViewController.swift in Sources */,
+				0431EAF4272A475000CCD2F6 /* NewsTableViewCell.swift in Sources */,
+				0431EAF8272A48AA00CCD2F6 /* NoticeTableViewController.swift in Sources */,
 				34EBE00A271F08E2005CC9EB /* AppDelegate.swift in Sources */,
 				34EBE00C271F08E2005CC9EB /* SceneDelegate.swift in Sources */,
+				0431EB04272A4B8F00CCD2F6 /* InfoViewController.swift in Sources */,
+				0431EB00272A49F600CCD2F6 /* SafetyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +413,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		049AD4F6272C5B7A006C4592 /* MySwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MySwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34EBDFFE271F08E2005CC9EB /* Project object */;
 }
