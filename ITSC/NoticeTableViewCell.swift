@@ -9,7 +9,13 @@ import UIKit
 
 class NoticeTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var title: UITextField!
+    @IBOutlet weak var date: UILabel!
+    
     override func awakeFromNib() {
+        title.borderStyle = .none
+        title.isEnabled = false
         super.awakeFromNib()
         // Initialization code
     }
@@ -19,5 +25,4 @@ class NoticeTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }

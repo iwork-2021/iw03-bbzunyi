@@ -9,10 +9,12 @@ import UIKit
 
 class NewsTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var title: UITextField!
     @IBOutlet weak var date: UILabel!
     
     override func awakeFromNib() {
+        title.borderStyle = .none
+        title.isEnabled = false
         super.awakeFromNib()
         // Initialization code
     }

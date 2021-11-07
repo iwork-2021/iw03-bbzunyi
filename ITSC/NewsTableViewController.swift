@@ -99,7 +99,7 @@ class NewsTableViewController: UITableViewController {
             queue.sync {
                 for j in 0..<self.page_num {
                     self.downloadhtml(page:j)
-                    usleep(200000)
+                    usleep(400000)
                    // print(j)
                 }
             }
@@ -110,7 +110,15 @@ class NewsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let contentViewController = self.storyboard!.instantiateViewController(withIdentifier: "ContentViewController") as! ContentViewController//segue.destination as! ContentViewController
+        let item = News[indexPath.row]
+        _ = contentViewController.view
+        print(item.title)
+        //contentViewController.title1.text = item.title
+        navigationController?.pushViewController(contentViewController, animated: true)
+        contentViewController.loadhtml(news_item: item)
+    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -124,16 +132,18 @@ class NewsTableViewController: UITableViewController {
         return News.count
     }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-        let contentViewController = segue.destination as! ContentViewController
-        let cell = sender as! NewsTableViewCell
-        let item = News[tableView.indexPath(for: cell)!.row]
-        print(item.website)
-        print(item.title)
-        contentViewController.loadhtml(news_item: item)
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        // Get the new view controller using segue.destination.
+//        // Pass the selected object to the new view controller.
+//        let contentViewController = self.storyboard!.instantiateViewController(withIdentifier: "ContentViewController") as! ContentViewController//segue.destination as! ContentViewController
+//        _ = contentViewController
+//        let cell = sender as! NewsTableViewCell
+//        let item = News[tableView.indexPath(for: cell)!.row]
+//        print(item.title)
+//        contentViewController.title1.text = item.title
+//        //navigationController?.pushViewController(contentViewController, animated: true)
+//        contentViewController.loadhtml(news_item: item)
+//    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> NewsTableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath) as! NewsTableViewCell
