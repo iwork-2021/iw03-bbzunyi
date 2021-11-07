@@ -5,14 +5,16 @@
 
 功能展示如下：
 
- 主界面
+主界面
 
 ![主界面](https://raw.githubusercontent.com/iwork-2021/iw03-bbzunyi/main/pics/MainInterface.png)
 
 新闻内容界面
+
 ![新闻内容界面](https://raw.githubusercontent.com/iwork-2021/iw03-bbzunyi/main/pics/NewsWindow.png)
 
 关于界面
+
 ![关于界面](https://raw.githubusercontent.com/iwork-2021/iw03-bbzunyi/main/pics/AboutUs.png)
 
 结果展示：已经发到qq群里
